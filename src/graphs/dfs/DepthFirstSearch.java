@@ -1,6 +1,9 @@
-package graphs;
+package graphs.dfs;
 
-public class DepthFirstSearch implements Search{
+import graphs.Graph;
+import graphs.Search;
+
+public class DepthFirstSearch implements Search {
     private boolean[] marked;
     private int count;
 

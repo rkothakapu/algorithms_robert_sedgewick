@@ -1,8 +1,10 @@
-package graphs;
+package graphs.dfs;
 
 import fundamentals.bagsqueuesandstacks.Stack;
+import graphs.Graph;
+import graphs.Paths;
 
-public class DepthFirstPaths implements Paths{
+public class DepthFirstPaths implements Paths {
     private boolean[] marked; // Has dfs() been called for this vertex
     private int[] edgeTo; // last vertex on known path to this vertex
     private final int s; // source
