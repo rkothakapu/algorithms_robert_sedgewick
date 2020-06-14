@@ -5,6 +5,7 @@ public class UnionFindImpl {
     protected int[] id; // access to component id
     protected int count; // number of components
 
+
     public UnionFindImpl(int n) {
         count = n;
         id = new int[n];
@@ -22,6 +23,7 @@ public class UnionFindImpl {
     }
 
     public int find(int p) {
+        int x = p;
         while(p != id[p]) p = id[p];
         return p;
     }
@@ -35,5 +37,6 @@ public class UnionFindImpl {
         id[i] = j;
         count--;
     }
+    
 
 }

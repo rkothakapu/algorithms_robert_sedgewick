@@ -15,7 +15,7 @@ public class WeightedQuickFind extends UnionFindImpl{
         int i = find(p);
         int j = find(q);
 
-        if(i == j) return;;
+        if(i == j) return;
 
         if(size[i] < size[j]) {
             id[i] = j;
@@ -24,6 +24,8 @@ public class WeightedQuickFind extends UnionFindImpl{
             id[j] = i;
             size[i] += size[j];
         }
+
+        find(0);
 
         count--;
     }

@@ -30,8 +30,6 @@ public class Bag<Item> implements Iterable<Item> {
             return current != null;
         }
 
-        public void remove() {}
-
         public Item next() {
             Item item = current.item;
             current = current.next;

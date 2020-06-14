@@ -1,4 +1,4 @@
-package graphs.dfs;
+package graphs.undirectedgraphs.dfs;
 
 import fundamentals.bagsqueuesandstacks.Stack;
 import graphs.Graph;

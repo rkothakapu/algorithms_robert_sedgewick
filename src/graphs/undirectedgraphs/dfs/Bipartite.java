@@ -1,4 +1,4 @@
-package graphs.dfs;
+package graphs.undirectedgraphs.dfs;
 
 import graphs.Graph;
 import org.jetbrains.annotations.NotNull;

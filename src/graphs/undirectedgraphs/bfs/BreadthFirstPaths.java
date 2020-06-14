@@ -1,4 +1,4 @@
-package graphs.bfs;
+package graphs.undirectedgraphs.bfs;
 
 import fundamentals.bagsqueuesandstacks.Queue;
 import fundamentals.bagsqueuesandstacks.Stack;
