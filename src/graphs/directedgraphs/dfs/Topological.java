@@ -9,7 +9,7 @@ public class Topological {
         DirectedCycle cyclefinder = new DirectedCycle(G);
         if(!cyclefinder.hasCycle()) {
             DepthFirstOrder dfs = new DepthFirstOrder(G);
-            order = dfs.reversePostPrder();
+            order = dfs.reversePostOrder();
         }
     }
 
