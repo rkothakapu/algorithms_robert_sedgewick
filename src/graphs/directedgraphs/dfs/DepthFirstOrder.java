@@ -4,7 +4,6 @@ import fundamentals.bagsqueuesandstacks.Queue;
 import fundamentals.bagsqueuesandstacks.Stack;
 import graphs.directedgraphs.Digraph;
 
-import javax.naming.spi.DirObjectFactory;
 
 public class DepthFirstOrder {
     private boolean[] marked;
